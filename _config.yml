@@ -1,7 +1,8 @@
 remote_theme: b2a3e8/jekyll-theme-console
 header_pages:
   - index.md
-  - about.md
   - notes.md
+  - links.md 
+  - about.md
 
 style: light
