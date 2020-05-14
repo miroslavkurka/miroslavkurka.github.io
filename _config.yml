@@ -4,5 +4,5 @@ header_pages:
   - notes.md
   - links.md 
   - about.md
-
+footer: 'you can follow me at ...'
 style: light
