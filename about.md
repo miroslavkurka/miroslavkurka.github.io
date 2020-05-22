@@ -3,4 +3,4 @@
 
 ## This is about page
 
-Hello! 
+Hello 
