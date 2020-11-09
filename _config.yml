@@ -4,5 +4,5 @@ header_pages:
   - notes.md
   - links.md 
   - about.md
-footer: <img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits">
+footer: 
 style: light
