@@ -9,4 +9,5 @@ Hello my name is Miro, I am mostly interested in the application of mathematics 
 I am currently studying for undergraduate degree in Biophysics at Pavol Jozef Safarik.<br/>
 Main areas of interest: Bioinformatics, DevOps, FreeBSD.<br/>
 Layman interest: Number Theory, Category Theory and Haskell 
+Hobbies: Mountaineering, Movies, Philosophy (see /links), Early 20th century art and of course music
 
