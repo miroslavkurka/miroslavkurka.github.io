@@ -1,4 +1,4 @@
-# Reading essays
+#/essays
 We started a small reading group for reading essays we find interesting.
 
 ## Schedule of essays to be read and discussed
