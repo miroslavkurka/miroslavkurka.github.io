@@ -4,5 +4,6 @@ header_pages:
   - notes.md
   - links.md 
   - about.md
+  - reading.md
 footer: 
 style: light
