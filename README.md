@@ -1,2 +1,6 @@
 # miroslavkurka.github.io
-my webpage
+
+
+Repository of my webpage
+
+
