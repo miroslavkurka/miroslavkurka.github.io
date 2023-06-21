@@ -4,10 +4,11 @@
 ## Welcome
 this website is under construction.
 
-```python
-def foo():
-  while True:
-    print("Webpage go brrr")
+```c98
+int main(void)
+{
+    printf("Hello, world!\n");
+}
 ```
 
 
