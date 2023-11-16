@@ -3,5 +3,6 @@ header_pages:
   - index.md
   - about.md
   - classes.md
+  - thesis.md
 footer:
 style: dark
