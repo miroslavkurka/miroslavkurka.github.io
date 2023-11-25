@@ -4,5 +4,6 @@ header_pages:
   - about.md
   - classes.md
   - thesis.md
-footer:
-style: dark
+
+footer: twitter @
+style: light
