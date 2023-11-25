@@ -1,4 +1,4 @@
-# /classes
+# /home/miro/classes
 
 ##  Classes
 This is a list of classes I took at UPJS, which required some sort of coding.

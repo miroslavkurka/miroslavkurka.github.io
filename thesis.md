@@ -1,12 +1,13 @@
-# /thesis
+# /home/miro/thesis
 
 
 ## CUDA implementation of Crystals Dilithium 
 
-- Supervisor: [doc. RNDr. Jozef Jirásek, PhD.](https://www.upjs.sk/PF/zamestnanec/jozef.jirasek/)
-- [Department of Computer Science, Pavol Jozef Safarik University](https://ics.science.upjs.sk/)  
+  Supervisor: [doc. RNDr. Jozef Jirásek, PhD.](https://www.upjs.sk/PF/zamestnanec/jozef.jirasek/)
+
+Institute: [Department of Computer Science, Pavol Jozef Safarik University](https://ics.science.upjs.sk/)  
   
-- Author: **Miroslav Kurka** 
+  Author: **Miroslav Kurka** 
 - e-mail: _my first name dot my last name at student dot upjs dot sk_
 
 

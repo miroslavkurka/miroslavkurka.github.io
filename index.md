@@ -1,4 +1,4 @@
-# /home
+# /home/miro/about
 
 
 ## Welcome
