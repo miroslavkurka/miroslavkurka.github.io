@@ -1,4 +1,4 @@
-remote_theme: alshedivat/al-folio
+remote_theme: orderedlist/minimal
 header_pages:
   - index.md
   - about.md
