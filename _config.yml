@@ -1,5 +1,4 @@
-remote_theme: mmistakes/jekyll-theme-academic
-
+remote_theme: alshedivat/al-folio
 header_pages:
   - index.md
   - about.md
