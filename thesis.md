@@ -61,7 +61,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-### References 
+## References 
 
 [1] Bernstein, D.J. and Lange, T. (2017) ‘Post-quantum cryptography’, Nature, 549(7671), pp. 188–194. Available at: https://doi.org/10.1038/nature23461.
 
