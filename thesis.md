@@ -1,4 +1,4 @@
-# /home/miro/thesis
+# thesis
 
 
 ## CUDA implementation of Crystals Dilithium 
