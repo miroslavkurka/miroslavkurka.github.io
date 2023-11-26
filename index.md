@@ -1,4 +1,4 @@
-# /home/miro/about
+# about
 
 
 ## Who am I?
