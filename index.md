@@ -2,7 +2,9 @@
 
 
 ## Who am I?
-![Figure 1: Miro Kurka](me.jpg)
+
+<img src="https://raw.githubusercontent.com/miroslavkurka/miroslavkurka.github.io/master/me.jpg" width=50% height=50%>
+
 
 
 
