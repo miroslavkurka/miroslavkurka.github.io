@@ -10,7 +10,10 @@ My name is Miro Kurka, I am graduate student of computer science at Pavol Jozef 
 
 
 ### Education
-- undergraduate degree in biophysics @ UPJS
+
+- 1 and half year major in "CS - natural language processing" @ FI MUNI (2019-2020) (no degree)
+- undergraduate degree in biophysics @ UPJS (2020-2023)
+- graduate student in general CS @ UPJS 
 ### Interests
 
 - Ansible 
