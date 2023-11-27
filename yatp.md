@@ -3,9 +3,10 @@
 # thesis 2 
 
 
-## CUDA implementation of 
+## CUDA implementation of sequence aligment algorithms 
 
   Supervisor: [doc. RNDr. Jozef Jirásek, PhD.](https://www.upjs.sk/PF/zamestnanec/jozef.jirasek/)
+  Advisor: [Biofyzik](www.biofyzika.sk)
 
 Institute: [Department of Computer Science, Pavol Jozef Safarik University](https://ics.science.upjs.sk/)  
   
@@ -13,10 +14,18 @@ Institute: [Department of Computer Science, Pavol Jozef Safarik University](http
 - e-mail: _my first name dot my last name at student dot upjs dot sk_
 
 
-## Abstract 
+## Research proposal 
+
+Sequence aligmnet is one of the fundamental tool in bionformatics. It provdise a framework for studying the evolution of DNA, RNA, and proteins. Since the first sequence alignment algorithm was proposed in 1981 by Smith et. al.[5], there have been many improvements and new algorithms proposed [2,3,4]. However due to ever increasing amount of data, there is always a need for faster implementation or new approach to sequence alignment. Particulalry the advent of next-generation sequencing (NGS) has brought new challenges for sequence alignment algorithms[3]. One of the recent advances was the invention of the Wavefront algorithm (WFA) [1]. WFA is a gap-affine pairwise alignment algorithm that is based on the Smith-Waterman algorithm [1,6]. WFA compared to other S-W like algorithms, which run in quadratic time, has complexity of O(ns+s^2).  Furthuer reduction could be achieved by implementing it in CUDA as was proven in 2023 [2]. Goal of this thesis is to implement it in CUDA and compare the performance with other implementation[2].
+
+//TODO add more info about WFA and why we choose it.
 
 ## Achievable goals
 
+- [ ] Implement WFA in CUDA
+- [ ] Compare performance with CPU implementation
+- [ ] Compare performance with other GPU implementation 
+- [ ] Code must be kept open-source and available on GitHub
 
 
 ## Full Thesis available:
@@ -50,15 +59,19 @@ SOFTWARE.
 
 ## References 
 
-[1]
 
-[2]
+[1] Santiago Marco-Sola, Juan Carlos Moure, Miquel Moreto, Antonio Espinosa, Fast gap-affine pairwise alignment using the wavefront algorithm, Bioinformatics, Volume 37, Issue 4, February 2021, Pages 456–463, https://doi.org/10.1093/bioinformatics/btaa777
 
-[3]
+[2] Aguado-Puig, Q. et al. (2023) ‘WFA-GPU: Gap-affine pairwise alignment using GPUs’. bioRxiv. Available at: https://doi.org/10.1101/2022.04.18.488374.
 
-[4]
 
-[5]
+[3] Müller, A. et al. (2022) ‘Anyseq/gpu: a novel approach for faster sequence alignment on gpus’, in Proceedings of the 36th ACM International Conference on Supercomputing, pp. 1–11. Available at: https://doi.org/10.1145/3524059.3532376.
+
+[4] Kim, J., Ji, M. and Yi, G. (2020) ‘A review on sequence alignment algorithms for short reads based on next-generation sequencing’, IEEE Access, 8, pp. 189811–189822. Available at: https://doi.org/10.1109/ACCESS.2020.3031159
+
+[5] Michael Farrar, Striped Smith–Waterman speeds database searches six times over other SIMD implementations, Bioinformatics, Volume 23, Issue 2, January 2007, Pages 156–161, https://doi.org/10.1093/bioinformatics/btl582
+
+[6] Smith, T.F. and Waterman, M.S. (1981) ‘Identification of common molecular subsequences’, Journal of Molecular Biology, 147(1), pp. 195–197. Available at: https://doi.org/10.1016/0022-2836(81)90087-5.
 
 
 

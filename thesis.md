@@ -1,5 +1,8 @@
 # thesis
 
+**THIS IS A DRAFT**
+
+__other option__ for thesis is [here](yatp.md)
 
 ## CUDA implementation of Crystals Dilithium 
 
@@ -11,7 +14,7 @@ Institute: [Department of Computer Science, Pavol Jozef Safarik University](http
 - e-mail: _my first name dot my last name at student dot upjs dot sk_
 
 
-## Abstract 
+## Research proposal 
 
 Widely used cryptographic algorithms are based on the hardness of integer factorization and discrete logarithm problems. However, these problems can be solved efficiently by quantum computers. [1] Therefore, it is necessary to develop new cryptographic algorithms that are resistant to quantum computers. [1] One of the proposed algorithms resistant to attacks from quantum computers is proposed FIPS204 Crystals-Dilithium (ML-DSA), which is based on the hardness of the Shortest Vector Problem (SVP) in lattices. [2] NIST proposal was approved in 2023. [2].
 
