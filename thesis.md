@@ -27,6 +27,7 @@ The aim of this thesis is to implement the Dilithium signature scheme in CUDA an
 ## Achievable goals
 
 - [ ] Implement Dilithium signature scheme in CUDA
+   - [ ] speed up the NTT 
 - [ ] Compare performance with CPU implementation
 - [ ] Compare performance with other GPU implementations
 - [ ] Code must be kept open-source and available on GitHub
