@@ -1,12 +1,12 @@
-# thesis
 
-**THIS IS A DRAFT**
 
-__other option__ for thesis is [here](yatp.md)
+# thesis  
 
-## CUDA implementation of Crystals Dilithium 
+
+## CUDA implementation of WFA sequence alignment algorithm 
 
   Supervisor: [doc. RNDr. Jozef Jirásek, PhD.](https://www.upjs.sk/PF/zamestnanec/jozef.jirasek/)
+  Advisor: [Biofyzik](www.biofyzika.sk)
 
 Institute: [Department of Computer Science, Pavol Jozef Safarik University](https://ics.science.upjs.sk/)  
   
@@ -16,25 +16,16 @@ Institute: [Department of Computer Science, Pavol Jozef Safarik University](http
 
 ## Research proposal 
 
-Widely used cryptographic algorithms are based on the hardness of integer factorization and discrete logarithm problems. However, these problems can be solved efficiently by quantum computers. [1] Therefore, it is necessary to develop new cryptographic algorithms that are resistant to quantum computers. [1] One of the proposed algorithms resistant to attacks from quantum computers is proposed FIPS204 Crystals-Dilithium (ML-DSA), which is based on the hardness of the Shortest Vector Problem (SVP) in lattices. [2] NIST proposal was approved in 2023. [2].
+Sequence aligmnet is one of the fundamental tool in bionformatics. It provdise a framework for studying the evolution of DNA, RNA, and proteins. Since the first sequence alignment algorithm was proposed in 1981 by Smith et. al.[5], there have been many improvements and new algorithms proposed [2,3,4]. However due to ever increasing amount of data, there is always a need for faster implementation or new approach to sequence alignment. Particulalry the advent of next-generation sequencing (NGS) has brought new challenges for sequence alignment algorithms[3]. One of the recent advances was the invention of the Wavefront algorithm (WFA) [1]. WFA is a gap-affine pairwise alignment algorithm that is based on the Smith-Waterman algorithm [1,6]. WFA compared to other S-W like algorithms, which run in quadratic time, has complexity of O(ns+s^2).  Furthuer reduction could be achieved by implementing it in CUDA as was proven in 2023 [2]. Goal of this thesis is to implement it in CUDA and compare the performance with other implementation[2].
 
-//TODO: add more info about CPU GPU implementations
-
-Since then there have been several implementations of this algorithm. [3, 4, 5]
-
-//TODO: list reasons why we need GPU implementation
-
-The aim of this thesis is to implement the Dilithium signature scheme in CUDA and compare the performance with other implementations. [3, 4, 5]
-
+//TODO add more info about WFA and why we choose it.
 
 ## Achievable goals
 
-- [ ] Implement Dilithium signature scheme in CUDA
-   - [ ] speed up the NTT 
+- [ ] Implement WFA in CUDA
 - [ ] Compare performance with CPU implementation
-- [ ] Compare performance with other GPU implementations
+- [ ] Compare performance with other GPU implementation 
 - [ ] Code must be kept open-source and available on GitHub
-- [ ] Host code must be MISRA-C compliant
 
 
 ## Full Thesis available:
@@ -68,16 +59,19 @@ SOFTWARE.
 
 ## References 
 
-[1] Bernstein, D.J. and Lange, T. (2017) ‘Post-quantum cryptography’, Nature, 549(7671), pp. 188–194. Available at: https://doi.org/10.1038/nature23461.
 
-[2] Technology, N.I. of S. and (2023) Module-Lattice-Based Digital Signature Standard. Federal Information Processing Standard (FIPS) 204 (Draft). U.S. Department of Commerce. Available at: https://doi.org/10.6028/NIST.FIPS.204.ipd.
+[1] Santiago Marco-Sola, Juan Carlos Moure, Miquel Moreto, Antonio Espinosa, Fast gap-affine pairwise alignment using the wavefront algorithm, Bioinformatics, Volume 37, Issue 4, February 2021, Pages 456–463, https://doi.org/10.1093/bioinformatics/btaa777
 
-[3] Lyubashevsky, V. (2009) ‘Fiat-Shamir with Aborts: Applications to Lattice and Factoring-Based Signatures’, in M. Matsui (ed.) Advances in Cryptology – ASIACRYPT 2009. Berlin, Heidelberg: Springer Berlin Heidelberg (Lecture Notes in Computer Science), pp. 598–616. Available at: https://doi.org/10.1007/978-3-642-10366-7_35.
-
-[4] Seo, S.C. and An, S. (2023) ‘Parallel implementation of CRYSTALS-Dilithium for effective signing and verification in autonomous driving environment’, ICT Express, 9(1), pp. 100–105. Available at: https://doi.org/10.1016/j.icte.2022.08.003.
+[2] Aguado-Puig, Q. et al. (2023) ‘WFA-GPU: Gap-affine pairwise alignment using GPUs’. bioRxiv. Available at: https://doi.org/10.1101/2022.04.18.488374.
 
 
-[5] Shen, S. et al. (2023) ‘High-Throughput GPU Implementation of Dilithium Post-Quantum Digital Signature’. arXiv. Available at: https://doi.org/10.48550/arXiv.2211.12265.
+[3] Müller, A. et al. (2022) ‘Anyseq/gpu: a novel approach for faster sequence alignment on gpus’, in Proceedings of the 36th ACM International Conference on Supercomputing, pp. 1–11. Available at: https://doi.org/10.1145/3524059.3532376.
+
+[4] Kim, J., Ji, M. and Yi, G. (2020) ‘A review on sequence alignment algorithms for short reads based on next-generation sequencing’, IEEE Access, 8, pp. 189811–189822. Available at: https://doi.org/10.1109/ACCESS.2020.3031159
+
+[5] Michael Farrar, Striped Smith–Waterman speeds database searches six times over other SIMD implementations, Bioinformatics, Volume 23, Issue 2, January 2007, Pages 156–161, https://doi.org/10.1093/bioinformatics/btl582
+
+[6] Smith, T.F. and Waterman, M.S. (1981) ‘Identification of common molecular subsequences’, Journal of Molecular Biology, 147(1), pp. 195–197. Available at: https://doi.org/10.1016/0022-2836(81)90087-5.
 
 
 
