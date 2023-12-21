@@ -13,7 +13,7 @@ Institute: [Department of Computer Science, Pavol Jozef Safarik University](http
   Author: **Miroslav Kurka** 
 - e-mail: _my first name dot my last name at student dot upjs dot sk_
 
-
+ 
 ## Research proposal 
 
 Sequence aligmnet is one of the fundamental tool in bionformatics. It provdise a framework for studying the evolution of DNA, RNA, and proteins. Since the first sequence alignment algorithm was proposed in 1981 by Smith et. al.[5], there have been many improvements and new algorithms proposed [2,3,4]. However due to ever increasing amount of data, there is always a need for faster implementation or new approach to sequence alignment. Particulalry the advent of next-generation sequencing (NGS) has brought new challenges for sequence alignment algorithms[3]. One of the recent advances was the invention of the Wavefront algorithm (WFA) [1]. WFA is a gap-affine pairwise alignment algorithm that is based on the Smith-Waterman algorithm [1,6]. WFA compared to other S-W like algorithms, which run in quadratic time, has complexity of O(ns+s^2).  Furthuer reduction could be achieved by implementing it in CUDA as was proven in 2023 [2]. Goal of this thesis is to implement it in CUDA and compare the performance with other implementation[2].
@@ -30,6 +30,7 @@ Sequence aligmnet is one of the fundamental tool in bionformatics. It provdise a
 
 ## Full Thesis available:
 (MOCK LINKS - NOT WORKING)
+ - [source code](https://github.com/miroslavkurka/cuda-wfa-align)
  - [thesis.pdf](thesis.pdf)
  - [thesis.tex](thesis.tex)
  - doi: [10.0000/arXiv.XXXX.Xx](google.com)
