@@ -1,7 +1,8 @@
 # blog
 
-Here is a post: [Implementing naive simplex method](/posts/simplex_method.md)
+[Implementing naive simplex method](/posts/simplex_method.md)
 
-Another one: [Prefix sums on parallel computers](/posts/hillis_steele.md)
+[Object intersection and Rice-Siff algorithm](/posts/zna.md)
 
-Call graphs on C code 
+[Prefix sums on parallel computers](/posts/hillis_steele.md)
+

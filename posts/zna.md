@@ -20,17 +20,30 @@ Vseobecne mame nejaky operator H ktory vie generovat nove prvky z X a uzaverom t
 
 Formalny kontext je trojica (B, A, R), kde B je mnozina objektov, A je mnozina atributov a R je binarna relacia medzi B a A. Tato relacia hovori o tom, ktore atributy patria k danemu objektu.
 
-## Co je to derivacny operatr? 
 
+## Co je to uzaverovy operator?
+Pred vysvetlenim potrebujeme definovat este uzaverovy system. Ten je neformalne len pre nejaku mnozinu G mam uzaverovy system S ked spravim cl(G) s tym ze ten operator na generovanie prvok bude prienik. Tj. priklad G={a,b} tak potom uzaverovy system moze byt S = {∅,{a,b}}, a to lebo plati ze prienik prvkov z S su sami v S. Nemusi to byt jediny uzaverovy system, pre nas priklad existuje aj uzaverovy system S = {∅, {a}, {b}, {a, b}}. Kde nas prvy uzaverovy system bol najmensi mozny a druhy je najvacsi mozny. Formalna definicia je:
+```
+Uzaverovym systemom na mnozine G nazyvame taku mnozinu jej podmnozın, ktora ako jeden z jej prvkov obsahuje celu mnozinu G a je uzavreta na prieniky.
+```
+*Uzaverovy operator* 
+je to kazde zobrazenie na G, ktore splna tri podmienky:
+
+1.) monotonnost X ⊆ Y ⇒ ϕX ⊆ ϕY
+
+2.) extenzivnost X ⊆ ϕX (toto vypliva z uzaveru mnoziny cl(G), je to popisane v [hore](#co-je-to-uzaver-mnoziny) )
+
+3.) idempotencia ϕϕX ⊆ ϕX (podobne ako v cl(G), presny dokaz je v skriptach)
+
+## Co je to derivacny operator? 
 
 ## Object Intersection Algorithm
 Link na clanok [Object Intersection Algorithm](https://www.researchgate.net/publication/220853707_Object_Intersection_Algorithm)
 
-## Rice - Siff Algortihm
-
+## Rice - Siff Algorithm 
 Clanok o tomto algoritme vysiel v [Electronic Notes in Theoretical Computer Science 40 (2002)](https://www.sciencedirect.com/journal/electronic-notes-in-theoretical-computer-science) strana 24, bohužiaľ od roku 2021 je tento časopis zrušený.
 
-Narozdiel od object intersection v tomto algoritme rozhodujeme ci pridame koncept do kontextu na zaklade pseudo metriky.
+Narozdiel od object intersection v tomto algoritme rozhodujeme ci pridame koncept do kontextu na zaklade pseudo metriky (tiez sa to da najst ako Jaccart distance).
 Ta je definovana ako: `\ro((X,Y),(X',Y'))= 1- |Y ∩ Y'|/|Y ∪ Y'|`, kde X, X' su objekty a Y, Y' su atributy. A usporiadana dvojica (X,Y) je koncept.
 
 ```
