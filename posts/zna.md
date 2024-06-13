@@ -8,6 +8,8 @@ TDLR: Co treba vediet na pochopenie:
  - co je to formalny koncept 
  - co je to derivacny operator
  - co je to uzaverovy operator
+
+
 Ak toto vsetko viete, staci skocit na kapitolu [Object Intersection Algorithm](#object-intersection-algorithm)
 
 
